@@ -16,7 +16,7 @@
         android:text="@string/aplikasi_list"
         android:textAllCaps="true"
         android:textAlignment="center"
-        android:textColor="@color/secondariColor"
+        android:textColor="@color/secondaryColor"
         android:textStyle="bold"
         android:layout_marginBottom="53dp"
         />
@@ -30,10 +30,10 @@
         android:layout_width="285dp"
         android:layout_height="60dp"
         android:textSize="24sp"
-        android:text="catat tugasmu \nagar tidak lupa"
+        android:text="@string/catat_tugasmu_nagar_tidak_lupa"
         android:textAllCaps="true"
         android:textAlignment="center"
-        android:textColor="@color/secondariColor"
+        android:textColor="@color/secondaryColor"
         android:textStyle="bold"
         />
 
