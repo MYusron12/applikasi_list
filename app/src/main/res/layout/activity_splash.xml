@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.splash.splashActivity"
+    android:background="@color/myColorPrimary"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="285dp"
+        android:layout_height="29dp"
+        android:textSize="24sp"
+        android:text="@string/aplikasi_list"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@color/secondariColor"
+        android:textStyle="bold"
+        android:layout_marginBottom="53dp"
+        />
+
+    <ImageView
+        android:layout_width="383dp"
+        android:layout_height="302dp"
+        android:src="@drawable/bgsplash"
+        />
+    <TextView
+        android:layout_width="285dp"
+        android:layout_height="60dp"
+        android:textSize="24sp"
+        android:text="catat tugasmu \nagar tidak lupa"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@color/secondariColor"
+        android:textStyle="bold"
+        />
+
+
+
+</LinearLayout>
